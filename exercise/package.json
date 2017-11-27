@@ -1,0 +1,11 @@
+{
+  "name": "testentry",
+  "version": "1.0.0",
+  "description": "this is a test entry project for user locally",
+  "main": "app.js",
+  "scripts": {
+    "test": "\\"
+  },
+  "author": "saifraza",
+  "license": "ISC"
+}
