@@ -1,0 +1,24 @@
+<html>
+<head>
+  <title>profile page</title>
+  <link rel="stylesheet" href="/assets/public/style.css" />
+</head>
+<body >
+
+<form name="contact-form" method="POST" action="/submitt">
+  <strong for="uname">NAME :</strong><input type="text" name="uname"  value="<%= data.name  %>" required/>
+  <br>
+  <strong for="email">EMAIL :</strong><input type="text" name="email"  value="<%= data.email  %>" required />
+  <br><strong for="depart">DEPARTEMENT :</strong><input type="text" name="depart"  placeholder="departement" required />
+
+  <br><input type="submit" name="submit" value="contact" />
+
+
+</form>
+  <br>
+</br>
+</body>
+<footer>
+</footer>
+
+</html>
